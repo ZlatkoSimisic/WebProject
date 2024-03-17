@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('scc-hero.jpg');
+    background-size: cover;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+
+#about,
+#floors,
+#contact {
+    padding: 50px 0;
+}
+
+.floor-plan {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.floor {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.floor img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
